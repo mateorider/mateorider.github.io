@@ -4,9 +4,12 @@ class Display extends React.Component {
   render() {
     return (
       <div>
-        Welcome to Display
+        {this.props.value}
       </div>
     );
   }
+}
+Display.propTypes = {
+  value: React.PropTypes.string,
 }
 export default Display;

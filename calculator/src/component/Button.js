@@ -3,10 +3,13 @@ import React from 'react';
 class Button extends React.Component {
   render() {
     return (
-      <div>
-        Welcome to Button
-      </div>
+      <button>
+        {this.props.name}
+      </button>
     );
   }
+}
+Button.propTypes = {
+  name: React.PropTypes.string,
 }
 export default Button;
