@@ -1,2 +1,2 @@
-# rider-mateo.github.io
-## A playground of sorts for my learning and things
+# mateorider.github.io
+Github Pages ftw
